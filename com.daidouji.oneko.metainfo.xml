@@ -10,17 +10,22 @@
     <p>
     The ever popular kitty-that-follows-your-mouse-pointer toy.
     </p>
-     <p>
+    <p>
     Neko is Japanese for cat. According to Wikipedia it was originally written for the NEC PC-9801.
     </p>
   </description>
   <url type="homepage">http://www.daidouji.com/oneko/</url>
+  <url type="bugtracker">https://github.com/flathub/com.daidouji.oneko/issues</url>
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/jcleng/org.daidouji.oneko/org.daidouji.oneko/screenshots/1.jpg</screenshot>
-    <screenshot >https://raw.githubusercontent.com/jcleng/org.daidouji.oneko/org.daidouji.oneko/screenshots/2.jpg</screenshot>
+    <screenshot type="default">https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/1.jpg</screenshot>
+    <screenshot >https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/2.jpg</screenshot>
   </screenshots>
   <releases>
-    <release version="1.2.0" date="2023-09-05"/>
+    <release version="1.2.0" date="2023-09-06">
+      <description>
+        <p>release of on Flathub and update bugtracker.</p>
+      </description>
+    </release>
   </releases>
   <updatecontact>j.c.leng@foxmail.com</updatecontact>
 </application>
