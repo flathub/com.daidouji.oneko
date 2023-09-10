@@ -2,7 +2,7 @@
 <application>
   <id type="desktop">com.daidouji.oneko</id>
   <name>oneko</name>
-  <summary>kitty-that-follows-your-mouse-pointer toy on desktop.</summary>
+  <summary>kitty that follows your mouse pointer toy on desktop</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=http://www.daidouji.com/oneko/</project_license>
   <content_rating type="oars-1.0"/>
