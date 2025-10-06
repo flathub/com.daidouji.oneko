@@ -1,7 +1,7 @@
 {
     "app-id": "com.daidouji.oneko",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "23.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "oneko",
     "finish-args": [
