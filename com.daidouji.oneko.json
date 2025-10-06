@@ -15,8 +15,7 @@
             "build-commands": [
                 "install -Dm644 com.daidouji.oneko.metainfo.xml -t $FLATPAK_DEST/share/metainfo",
                 "install -Dm644 com.daidouji.oneko.desktop /app/share/applications/com.daidouji.oneko.desktop",
-                "install -Dm644 com.daidouji.oneko.png /app/share/icons/hicolor/scalable/apps/com.daidouji.oneko.png",
-                "install -Dm644 com.daidouji.oneko.png /app/share/icons/hicolor/512x512/apps/com.daidouji.oneko.png"
+                "install -Dm644 com.daidouji.oneko.png /app/share/icons/hicolor/128x128/apps/com.daidouji.oneko.png"
             ],
             "sources": [
                 {
