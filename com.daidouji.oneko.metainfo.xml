@@ -1,31 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application>
-  <id type="desktop">com.daidouji.oneko</id>
+<component type="desktop-application">
+  <id>com.daidouji.oneko</id>
   <name>oneko</name>
-  <summary>kitty that follows your mouse pointer toy on desktop</summary>
+  <summary>Kitty that follows your mouse pointer toy on desktop</summary>
+
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=http://www.daidouji.com/oneko/</project_license>
+
+  <developer id="org.daidouji.oneko">
+    <name>Masayuki Koba, Tatsuya Kato, John Lerchey, Eric Anderson, Toshihiro Kanda, Kiichiroh Mukose</name>
+  </developer>
+
   <content_rating type="oars-1.0"/>
+
   <description>
     <p>
-    The ever popular kitty-that-follows-your-mouse-pointer toy.
+      The ever popular kitty-that-follows-your-mouse-pointer toy.
     </p>
     <p>
-    Neko is Japanese for cat. According to Wikipedia it was originally written for the NEC PC-9801.
+      Neko is Japanese for cat. According to Wikipedia it was originally written for the NEC PC-9801.
     </p>
   </description>
+
   <url type="homepage">http://www.daidouji.com/oneko/</url>
   <url type="bugtracker">https://github.com/flathub/com.daidouji.oneko/issues</url>
+
   <screenshots>
-    <screenshot type="default">https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/1.jpg</screenshot>
-    <screenshot >https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/2.jpg</screenshot>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/1.jpg</image>
+      <caption>Oneko the kitty chasing your mouse pointer (cursor not shown)</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.daidouji.oneko/master/screenshots/2.jpg</image>
+      <caption>Oneko taking a well-deserved nap</caption>
+    </screenshot>
   </screenshots>
+
   <releases>
     <release version="1.2.0" date="2023-09-06">
       <description>
-        <p>release of on Flathub.</p>
+        <p>Release of on Flathub.</p>
       </description>
     </release>
   </releases>
-  <updatecontact>j.c.leng@foxmail.com</updatecontact>
-</application>
+
+  <launchable type="desktop-id">com.daidouji.oneko.desktop</launchable>
+
+  <update_contact>j.c.leng@foxmail.com</update_contact>
+</component>
